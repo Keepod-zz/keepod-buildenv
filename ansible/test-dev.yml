@@ -1,7 +1,7 @@
 ---
 - name: setup building env
-  hosts: 107.170.18.18
-  sudo: true
+  hosts: all
+  user: root
 
   roles:
-    - dev-installer
+    - dev
